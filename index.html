@@ -7,14 +7,19 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>Site Name</title> <!--browser window title text-->
+        <title>Get Dog In Console</title> <!--browser window title text-->
         <link href="main.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <main>
-
+            <form id="form">
+                <label for="pictures">Number of pictures</label>
+                <input type="number" id="pictures" name="pictures" min="1" max="50" value="3">
+                <button type="submit" id="submit-button" name="submit-button">Submit</button>
+            </form>
         </main>
-        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.js" >
+        </script>
         <script src="scripts.js"></script>
         <footer>
 
