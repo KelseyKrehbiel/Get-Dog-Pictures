@@ -8,10 +8,10 @@ function getDogImage(dogCount) {
   
   function displayResults(pictureList) {
     //console.log(pictureList);
-    $('img').remove();
+    $('li').remove();
     pictureList.forEach(element => {
         console.log(element);
-        $('main').append(`<img src="${element}" class="results-img">`)
+        $('ul').append(`<li><img src="${element}"></li>`)
     });
   }
   
